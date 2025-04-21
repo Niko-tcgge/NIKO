@@ -97,13 +97,6 @@ graph TD
   F --> G[更新分数]
   G --> A
 
-故障排查
-| 现象                | 解决方案                     |
-|--------------------|--------------------------|
-| 屏幕无显示            | 检查TFT配置引脚定义           |
-| 按键响应延迟           | 调整handleInput()防抖时间     |
-| 方块渲染异常           | 验证颜色编码格式              |
-| 内存不足导致崩溃         | 优化grid数组存储方式          |
 
 ## 参考资源
 1. [WIO Terminal官方文档](https://wiki.seeedstudio.com/WIO-Terminal-Getting-Started/)
